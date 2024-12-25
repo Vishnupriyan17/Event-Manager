@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Manager</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <script src="/js/script.js"></script>
+    <!-- Header -->
+    <header>
+        <div class="h-title" id="h-title">
+            <img src="/assets/img/Header.jpg" alt="Header">
+        </div>
+    </header>
+
+    <!-- Main -->
+     <div class="input">
+         <!--Input Section-->
+            <form id="input-form">
+                <table>
+                    <tr> <!-- Entering the Event Name -->
+                        <td><label for="Event-name">Event</label></td>
+                        <td><input type="text" id="Event-name" placeholder="Type your event"></td>
+                    </tr>
+                    <tr> <!-- Start date -->
+                        <td><label for="Start-date">Start-Date</label></td>
+                        <td><input type="date" id="Start-date"></td>
+                    </tr>
+                    <tr> <!-- End date -->
+                        <td><label for="End-date">End-Date</label></td>
+                        <td><input type="date" id="End-date"></td>
+                    </tr>
+                </table>
+                    <!-- Save Button -->
+                    <button type="button" onclick="AddEvent()">Save</button>
+            </form> 
+    </div>
+     <!--Display Section-->
+        <div class="display" id="display">
+        
+        </div>
+     <!-- Footer -->
+      <footer>
+
+      </footer>
+
+      
+</body>
+</html>

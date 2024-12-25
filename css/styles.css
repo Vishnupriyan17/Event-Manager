@@ -1,0 +1,52 @@
+body{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 8px 9px 0px grey;
+    padding: 5px 5px 5px;
+}
+.h-title img{
+    width: 100%;
+    border-radius: 10px;
+}
+.input{
+    padding: 1%;
+    background-color: rgba(248, 146, 146, 0.5);
+    border-radius: 10px;
+    justify-items: center;
+    position: relative;
+}
+.input-form{
+    width: 75%;
+    padding: 2%;
+}
+td input{
+    padding: 3%;
+    border-radius: 5px;
+    border: 3px solid rgb(243, 240, 240);
+    margin: 2%;
+    box-shadow: 0px 4px 2px 0px grey;
+}
+tr{
+    padding: 5%;
+}
+td{
+    text-align: start;
+}
+button{
+    margin-left: 25%;
+    margin-top: 3%;
+    padding: 2%;
+    border: 2px solid rgb(125, 60, 186);
+    background-color: rgb(129, 72, 183);
+    border-radius: 5px;
+    width: 35%;
+
+}
+.display{
+    margin: 1%;
+    width: 95%;
+    border-radius: 10px;
+    padding: 5px 5px 5px;
+    color: black;
+}
